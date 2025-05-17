@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(180deg, #551798 0%, #7B21C1 13.46%, #762FC2 32.69%, #7C30A3 54.81%, #6D388F 75%, #372E47 85.58%, #1F1D23 100%);
+    color: white;
+  }
+  
+  /* Main wrapper and container */
+  .main-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 88px;
+  }
+  
+  .main-container {
+    width: 320px;
+    height: 1162px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Profile section layout */
+  .profile-section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .contacts {
+    font-size: 13px;
+    color: white;
+  }
+  
+  .contacts ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .contacts li {
+    margin-top: 4px;
+  }
+  
+  .contacts a {
+    color: #BBBBBB;
+    text-decoration: none;
+  }
+  
+  /* Right column */
+  .right-column {
+    margin-left: 15px;
+    flex: 1;
+  }
+  
+  .info h1 {
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .bio h3 {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  
+  .bio p {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 5px;
+  }
+  
+  /* Portfolio section */
+  .portfolio-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px
+  }
+  
+  .portfolio-section h2 {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .portfolio-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .portfolio-images img {
+    margin-bottom: 15px; /* You can freely control spacing here */
+  }
+  
+  /* Special row for two side-by-side images */
+  .carboocking-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
