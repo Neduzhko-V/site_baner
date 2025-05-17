@@ -51,6 +51,7 @@
   }
   
   .contacts ul {
+    margin-left: 10px;
     list-style: none;
     padding-left: 0;
   }
@@ -60,10 +61,15 @@
   }
   
   .contacts a {
-    color: #BBBBBB;
     text-decoration: none;
-  }
-  
+    color: #BBBBBB; 
+    transition: 150ms linear; 
+    }
+    .contacts a:hover {
+    color: #dd224a; 
+    }
+    
+    
   /* Right column */
   .right-column {
     margin-left: 15px;
